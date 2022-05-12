@@ -13,15 +13,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/802dc7e435.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <!-- Styles Link -->
     <link rel="stylesheet" href="styles.css">
     <title>My Bio</title>
 </head>
 <body>
      <!-- navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fa-solid fa-fish-fins"></i>Kaylee's Online Profile</a>
+          <a class="navbar-brand" href="index.html"><img src="flower1.svg" alt="flower" height="25" width="25">Kaylee's Online Profile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,34 +34,50 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="project.html">Projects</a>
+                <a class="nav-link" href="projects.html">Projects</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About Me
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="skills.html">Skills</a></li>
-                  <li><a class="dropdown-item" href="resume.html">Resume</a></li>
-                  <li><a class="dropdown-item" href="goals.html">Interests/Goals</a></li>
+                  <li><a class="dropdown-item" href="about.html#skills">Skills</a></li>
+                  <li><a class="dropdown-item" href="about.html#resume">Resume</a></li>
+                  <li><a class="dropdown-item" href="about.html#goals">Interests/Goals</a></li>
                   <li><hr class="dropdown-divider"></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" style="background-color:lightblue;" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-    <h1>Welcome to my skills</h1>
+    <h1>Projects Page</h1>
+
+    <!-- github linkup -->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h2>My Current Projects:</h2>
+            <p class="lead">Although I don't work in the technical field yet, I do have some class projects from previous coding and web design classes. Please feel free to check out my github page below and see what I can do!</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <form action="https://github.com/kaylee098" method="get" target="_blank">
+              <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" >My Github</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img src="githubgif.gif" alt="" width="500" height="350">
+          </div>
+        </div>
+      </div>
 
 
 
-
-
-<!-- footer -->
+    <!-- footer -->
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
@@ -69,13 +88,14 @@
         </span>
       </div>
 
-      <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top"></footer>
+      <div class="d-flex flex-wrap align-items-center py-3 my-4 border-top"></div>
       <div class="col-md-3 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
         </a>
         <span class="text-muted">
         <i class="fa-solid fa-envelope"></i> kayleemartin098@gmail.com
+        <span></span>
         <i class="fa-solid fa-square-phone-flip"></i> 417-385-8103
         </span>
       </div>
